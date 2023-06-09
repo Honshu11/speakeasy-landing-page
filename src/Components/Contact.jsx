@@ -20,7 +20,7 @@ function Contact() {
     };
 
     return (
-    <div className="container">
+    <div className="container" id='contact'>
         <hr className='text-light'/>
         <h1 className='contact-header text-white'>Contact Us</h1>
         <form action="" onSubmit={handleSubmit}>

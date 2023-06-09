@@ -2,7 +2,7 @@ import React from 'react';
 
 function About() {
   return (
-    <section className="py-5 text-light">
+    <section className="py-5 text-light" id='about'>
       <div className="container">
         <div className="row">
           <div className="col-lg-6">

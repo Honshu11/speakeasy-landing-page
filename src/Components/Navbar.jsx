@@ -18,9 +18,9 @@ function AppNavbar() {
           <Navbar.Collapse id='navbar'>
             <Nav className="me-auto">
               <Nav.Link href='#'>Menu</Nav.Link>
-              <Nav.Link href='#'>About Mixologist</Nav.Link>
-              <Nav.Link href='#'>Testimonials</Nav.Link>
-              <Nav.Link href='#'>Contact</Nav.Link>
+              <Nav.Link href='#about'>About M.S.C</Nav.Link>
+              <Nav.Link href='#testimonials'>Testimonials</Nav.Link>
+              <Nav.Link href='#contact'>Contact</Nav.Link>
             </Nav>
             <Nav>
               <Nav.Link href='https://www.instagram.com'>

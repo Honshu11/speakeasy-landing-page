@@ -16,7 +16,7 @@ function Gallery() {
   ]
 
   return (
-    <div className="container">
+    <div className="container" id='gallery'>
         <hr className='text-light'/>
         <h2 className='gallery-header pb-2 text-light'>Gallery</h2>
         <div className="row row-cols-1 row-cols-md-2">

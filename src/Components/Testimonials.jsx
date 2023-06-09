@@ -2,7 +2,7 @@ import React from 'react';
 
 function Testimonials() {
   return (
-    <div className='container mt-5'>
+    <div className='container mt-5' id='testimonials'>
         <hr className='border border-light'/>
         <h2 className='mb-4 text-white'>Testimonials</h2>
             <div className="row">

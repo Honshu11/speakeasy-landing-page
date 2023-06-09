@@ -1,9 +1,8 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
 
 function Footer() {
   return (
-    <footer className="bg-dark text-white">
+    <footer className="bg-dark text-white" id='footer'>
       <div className="container-fluid">
         <div className="row media-container">
           <div className="col">
@@ -25,7 +24,7 @@ function Footer() {
           </div>
         </div>
         <div className="row">
-          <div className="col">
+          <div className="col pt-1">
             <small>&#169; Copyright Gonzo LLC.</small>
           </div>
         </div>
