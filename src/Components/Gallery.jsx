@@ -18,7 +18,7 @@ function Gallery() {
   return (
     <div className="container">
         <hr className='text-light'/>
-        <h2 className='gallery-header text-light'>Gallery</h2>
+        <h2 className='gallery-header pb-2 text-light'>Gallery</h2>
         <div className="row row-cols-1 row-cols-md-2">
         {cocktails.map(cocktail => (
           <div className="col mb-4" key={cocktail.name}>
