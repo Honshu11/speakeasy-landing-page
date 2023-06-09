@@ -17,6 +17,8 @@ function App() {
       <Navbar />
       <AppCarousel />
       <Main />
+      <About />
+      <Gallery />
       <Testimonials />
       <Contact />
       <Footer />
