@@ -4,7 +4,7 @@ function Main() {
   return (
     <div className='container'>
       <main>
-        <h1>This is main body:</h1>
+        <h1 className='text-white'>This is main body:</h1>
       </main>
     </div>
   )

@@ -11,7 +11,7 @@ function AppNavbar() {
       <Navbar className='navbar' bg='dark' variant='dark' expand='lg'>
         <Container className='navbar-container'>
           <Navbar.Brand href='#'>
-            <img className='navbar-logo' src='./Images/crecentMoon.jpg' alt='crecent moon' type='image'/>
+            <img className='navbar-logo me-auto' src='./Images/crecentMoon.jpg' alt='crecent moon' type='image'/>
             Midnight Social Club
           </Navbar.Brand>
           <Navbar.Toggle aria-controls='navbar'/>

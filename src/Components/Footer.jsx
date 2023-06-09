@@ -3,42 +3,35 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 function Footer() {
   return (
-    <Container fluid className='footer mx-auto'>
-      <Row>
-        <Col>
-          <small>&#169; Copyright Gonzo Inc.</small>
-        </Col>
-      </Row>
-      <Row className='media-container'>
-        <Col>
-          <a href='https://www.instagram.com'>
-            <i className='bi bi-instagram'></i>
-          </a>
-        </Col>
-        <Col>
-          <a href='https://www.facebook.com'>
-            <i className='bi bi-facebook'></i>
-          </a>
-        </Col>
-        <Col>
-          <a href='https://www.twitter.com'>
-            <i className='bi bi-twitter'></i>
-          </a>
-        </Col>
-        <Col>
-          <a href='https://www.tiktok.com'>
-            <i className='bi bi-tiktok'></i>
-          </a>
-        </Col>
-        <Col>
-          <a href='https://www.whatsapp.com'>
-            <i className='bi bi-whatsapp'></i>
-          </a>
-        </Col>
-      </Row>
-    </Container>
+    <footer className="bg-dark text-white">
+      <div className="container-fluid">
+        <div className="row media-container">
+          <div className="col">
+            <a href="https://www.instagram.com">
+              <i className="bi bi-instagram pe-2"></i>
+            </a>
+            <a href="https://www.facebook.com">
+              <i className="bi bi-facebook pe-2"></i>
+            </a>
+            <a href="https://www.twitter.com">
+              <i className="bi bi-twitter pe-2"></i>
+            </a>
+            <a href="https://www.tiktok.com">
+              <i className="bi bi-tiktok pe-2"></i>
+            </a>
+            <a href="https://www.whatsapp.com">
+              <i className="bi bi-whatsapp pe-2"></i>
+            </a>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col">
+            <small>&#169; Copyright Gonzo LLC.</small>
+          </div>
+        </div>
+      </div>
+    </footer>
   );
 }
-
 
 export default Footer;
