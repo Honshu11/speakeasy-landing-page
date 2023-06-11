@@ -3,7 +3,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 function AppCarousel() {
   return (
-    <div className='carousel-container bg-dark white-text' id='carousel'>
+    <div className='carousel-container border border-white bg-dark white-text' id='carousel'>
         <Carousel >
             <Carousel.Item>
                 <div className='carousel-image-container'>

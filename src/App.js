@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './Components/Navbar';
-import Main from './Components/Main';
 import AppCarousel from './Components/Carousel';
 import Testimonials from './Components/Testimonials';
 import Gallery from './Components/Gallery';
@@ -16,7 +15,6 @@ function App() {
     <div className="App bg-dark">
       <Navbar />
       <AppCarousel />
-      <Main />
       <About />
       <Gallery />
       <Testimonials />

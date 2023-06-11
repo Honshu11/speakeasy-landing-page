@@ -17,8 +17,8 @@ function AppNavbar() {
           <Navbar.Toggle aria-controls='navbar'/>
           <Navbar.Collapse id='navbar'>
             <Nav className="me-auto">
-              <Nav.Link href='#'>Menu</Nav.Link>
               <Nav.Link href='#about'>About M.S.C</Nav.Link>
+              <Nav.Link href='#card-image'>Gallery</Nav.Link>
               <Nav.Link href='#testimonials'>Testimonials</Nav.Link>
               <Nav.Link href='#contact'>Contact</Nav.Link>
             </Nav>

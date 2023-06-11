@@ -6,7 +6,7 @@ function About() {
       <div className="container">
         <div className="row">
           <div className="col-lg-6">
-            <h2 className="display-4 mb-4">Welcome to The Midnight Social Club</h2>
+            <h2 className="display-4 mb-4 fst-italic text-decoration-underline">Welcome to The Midnight Social Club</h2>
             <p className="lead">
               Step back in time to the era of Prohibition and indulge in the clandestine world of The Midnight Social Club. We are a mobile cocktail business specializing in recreating the ambiance of the roaring 1920s speakeasies. 
             </p>

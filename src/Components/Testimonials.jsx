@@ -5,7 +5,7 @@ function Testimonials() {
     <div className='container mt-5' id='testimonials'>
         <hr className='border border-light'/>
         <h2 className='mb-4 text-white'>Testimonials</h2>
-            <div className="row">
+            <div className="row" id='row-cards'>
                 <div className="col-md-4 mb-4">
                     <div className="card">
                         <div className="card-body">
