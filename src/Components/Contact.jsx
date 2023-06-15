@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 
 
 function Contact() {
+
     const [name, setName] = useState('');
     const [phoneNumber, setPhoneNumber] = useState('');
     const [email, setEmail] = useState('');

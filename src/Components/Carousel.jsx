@@ -3,10 +3,10 @@ import Carousel from 'react-bootstrap/Carousel';
 
 function AppCarousel() {
   return (
-    <div className='carousel-container border border-white bg-dark white-text' id='carousel'>
+    <div className='carousel-container bg-dark white-text' id='carousel'>
         <Carousel >
             <Carousel.Item>
-                <div className='carousel-image-container'>
+                <div className='carousel-image-container border border-secondary'>
                     <img className='img-fluid' src='./Images/Vodka-Soda.jpg' alt='simple vodkda lime and soda cocktail'/>
                 </div>
                 <Carousel.Caption>
@@ -15,7 +15,7 @@ function AppCarousel() {
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-                <div className='carousel-image-container'>
+                <div className='carousel-image-container border border-secondary'>
                     <img className='img-fluid' src='./Images/drunken-monkey.jpg' alt='a pineapple tropical cocktail drink'/>
                 </div>
                 <Carousel.Caption>
@@ -24,7 +24,7 @@ function AppCarousel() {
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-                <div className='carousel-image-container'>
+                <div className='carousel-image-container border border-secondary'>
                     <img className='img-fluid' src='./Images/negroni_hero.jpg' alt='classic cocktail drink with gin'/>
                 </div>
                 <Carousel.Caption>

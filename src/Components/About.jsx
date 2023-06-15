@@ -15,7 +15,7 @@ function About() {
             </p>
           </div>
           <div className="col-lg-6">
-            <img src="" alt="speakeasy mobile interior or mixologist in action (picture)" className='img-fluid rounded' />
+            <img src="" alt="speakeasy interior or mixologist making drinks - serving guests" className='img-fluid rounded' />
           </div>
         </div>
       </div>
